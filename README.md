@@ -228,7 +228,7 @@ Table visual for Top Customers by Sales with conditional formatting. Multi-row c
 Pinned visuals from report pages to Power BI Service dashboard. Tiles added for quick insights, Q&A enabled for natural language queries. Mobile layout optimized, consistent theme applied.
 
 **Screenshot:**
-![Dashboard](link_to_dashboard_image.png)
+![Dashboard](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/Dashboard%20Screenshots/2025-08-15%20(24).png)
 *Figure 4: Dashboard showing pinned visuals and tiles*
 
 # Section 5: Advanced Features and DAX (15 Marks)
