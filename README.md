@@ -68,3 +68,51 @@ Insert screenshot of Power Query Editor here:
 
 ![Power Query Editor](screenshots/powerquery_editor.png)
 
+# Section 2: Data Modeling (15 Marks)
+
+## 1. Relationships (8 Marks)
+
+**Description:**  
+Built a star schema with `Sales_data` as the central fact table and dimensions `Dates`, `Products`, `Customers`, `Geography`. All relationships are active and follow a many-to-one structure.
+
+**Screenshots:**
+
+![Model View](screenshots/model_view.png)
+*Figure 1: Relationships in Model view, showing active links*
+
+**Notes:**  
+- Sales ↔ Dates via OrderDate → Date  
+- Sales ↔ Products via ProductID  
+- Sales ↔ Customers via CustomerID  
+- Customers ↔ Geography via City/State  
+
+---
+
+## 2. Hierarchies and Measures (7 Marks)
+
+**Date Hierarchy:**  
+Year > Quarter > Month > Day  
+
+**Product Hierarchy:**  
+Category > Subcategory > ProductName  
+
+**Measures Formatting:**  
+- SalesAmount → Currency, 2 decimals  
+- TotalCost → Currency  
+- Profit → Currency  
+- Budget Attainment → Percentage  
+
+**Screenshots:**
+
+![Date Hierarchy](screenshots/date_hierarchy.png)
+*Figure 2: Date hierarchy in Dates table*
+
+![Product Hierarchy](screenshots/product_hierarchy.png)
+*Figure 3: Product hierarchy in Products table*
+
+**Tips:**  
+- Hide surrogate keys for cleaner Fields pane  
+- Use hierarchies for drill-down in visuals  
+- Format measures consistently for readability
+
+
