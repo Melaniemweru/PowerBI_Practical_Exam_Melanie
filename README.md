@@ -66,7 +66,7 @@ Dataset was imported into Power BI and cleaned using **Power Query Editor**.
 ### Screenshot
 Insert screenshot of Power Query Editor here:
 
-![Power Query Editor](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(5).png)
+![Power Query Editor](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-13%20(5).png)
 
 # Section 2: Data Modeling (15 Marks)
 
