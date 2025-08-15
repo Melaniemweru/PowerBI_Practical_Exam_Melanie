@@ -4,49 +4,62 @@
 ## Project Overview
 This Power BI project demonstrates a comprehensive approach to analyzing sales, product, and customer data. The report is designed to provide interactive, drillable insights for business decision-making, with a focus on clarity, color consistency, and cross-filtering between visuals.
 
-The dashboard includes:
-- **Sales Overview:** Line chart showing Sales over Time with Year-over-Year growth, KPI cards for total revenue and profit, and a map of sales by region.
-- **Product Analysis:** Bar charts, scatter plots, and decomposition tree for Top and Bottom performing products, with dynamic Top N filters and bookmarks for different views.
-- **Customer Insights:** Table visual showing Top Customers by Sales, with conditional formatting to highlight low/high profit, and multi-row cards for key metrics such as Average Revenue per Customer, Repeat Customers, and Total Revenue.
--
----
-
-## Key Features
-- **Interactive Visuals:** Cross-filtering between line charts, maps, and bar charts.
-- **Consistent Color Palette:** Titles, values, and category colors follow a ColorblindSafe palette for readability.
-- **Dynamic Filters:** Top N slicers and year/category/region slicers allow users to explore different segments.
-- **Navigation Menu:** Sidebar buttons enable quick access to different report pages, simulating a website-like experience.
-- **DAX Calculations:** Includes Total Sales, Total Profit, Profit Margin, YoY Growth, Running Total, and Top/Bottom N product ranking.
 
 ---
+## Insights, Assumptions, and Limitations
 
-## Challenges and Solutions
-- Ensured **continuous date axis** for time series analysis by using the Date table.
-- Implemented **Top N / Bottom N filtering** using calculated columns and slicers since visual-level filters cannot use measures directly.
-- Conditional formatting for customers was implemented with DAX color measures to highlight performance.
-- Avoided circular dependency in DAX measures by referencing base measures instead of recalculating totals.
+### **Insights**
+Based on the visuals, measures, and dashboards implemented, the following insights emerge:
+
+1. **Sales Overview**
+   - **Total Sales:** $8,080,000  
+   - **Total Profit:** $3,380,000  
+   - **Sales Trends:** Line chart with running total and 6-month forecast shows steady growth with seasonal peaks.  
+   - **YoY Performance:** Year-over-Year growth reveals months where sales underperformed relative to the previous year.  
+   - **Geography Insights:** Map visual shows that the United States and selected states contribute the majority of sales. Drill-down to city level identifies localized high-performing areas.
+
+2. **Product Analysis**
+   - **Top Products:** Bar chart identifies the Top 10 products by sales.  
+   - **Category Contribution:** Bikes contribute **95.17%** of category sales.  
+   - **Profit vs Quantity:** Scatter plot shows a positive correlation between quantity sold and profit, with Year as play axis revealing trends over time.  
+   - **Decomposition Tree:** Highlights which customers, products, and regions contribute most to sales, aiding targeted strategies.
+
+3. **Customer Insights**
+   - **Total Customers:** 18,484  
+   - **Top Customers:** Table visual identifies high-value customers; conditional formatting highlights low-profit customers.  
+   - **Key Metrics:** Multi-row card shows total sales, total profit, and other aggregated metrics at a glance.
+
+4. **Advanced Features (DAX Measures & RLS)**
+   - **Running Total Sales:** Shows cumulative sales over time for trend analysis.  
+   - **YoY Growth:** Highlights periods with strong or weak growth.  
+   - **Top N Products:** Dynamic filter allows identification of best-performing products.  
+   - **Row-Level Security:** US Manager sees only United States sales; Europe Manager sees only European regions.
+
+5. **Custom Visuals**
+   - **Bullet Chart (Sales vs Budget):** Shows attainment of budget, helping identify gaps and over-performing products or regions.  
+   - **Gauge Visual:** Displays profit margin against a 30% target; allows quick assessment of performance.
 
 ---
 
-
-
-
-
-
-
-## Key Insights
-- Electronics contributed **40% of total sales**.
-- Top 5 products accounted for **60% of revenue**.
-- Profit margins are highest in **Region X**, lowest in **Region Y**.
-- Repeat customers make up **25% of total orders**, driving significant revenue.
+### **Assumptions**
+- The `Dates` table is complete and continuous, supporting time intelligence functions.  
+- Sales, product, and customer data are accurate and cleaned.  
+- All currency values are consistent (USD).  
+- Top N filters are based on total sales only.  
+- Forecast assumes trends continue and does not account for external disruptions (e.g., promotions or supply chain issues).  
 
 ---
 
-## Assumptions and Limitations
-- Forecast assumes linear trend and consistent seasonality.
-- Data is only as accurate as the source tables; missing values may affect totals.
-- Top/Bottom N views rely on current slicer selection for dynamic filtering.
+### **Limitations**
+1. **Data Granularity:** Analysis is at product, customer, and date levels; transaction-level data could provide deeper insights.  
+2. **Forecast Accuracy:** Predictions rely solely on historical trends and may be affected by sudden market changes.  
+3. **Performance:** Measures like RANKX and cumulative totals may slow down reports with very large datasets.  
+4.   
+5. **Excluded Factors:** Macroeconomic events, promotions, and supply chain issues are not included.  
+6. **Visual Clarity:** Scatter plots with many points or decomposition trees may appear cluttered without filters.
+
 ---
+
 ## Section 1: Data Import and Transformation (20 Marks)
 
 Dataset was imported into Power BI and cleaned using **Power Query Editor**.  
