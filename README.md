@@ -230,6 +230,8 @@ Pinned visuals from report pages to Power BI Service dashboard. Tiles added for 
 **Screenshot:**
 ![Dashboard](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/Dashboard%20Screenshots/2025-08-15%20(24).png)
 *Figure 4: Dashboard showing pinned visuals and tiles*
+https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/Dashboard%20Screenshots/2025-08-15%20(23).png
+![Dashboard](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/Dashboard%20Screenshots/2025-08-15%20(23).png)
 
 # Section 5: Advanced Features and DAX (15 Marks)
 
