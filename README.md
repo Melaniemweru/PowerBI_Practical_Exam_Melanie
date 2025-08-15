@@ -28,14 +28,11 @@ The dashboard includes:
 
 ---
 
-## Report Link
-[View Published Power BI Report](YOUR_POWERBI_SERVICE_LINK_HERE)
-
----
 
 
 
----
+
+
 
 ## Key Insights
 - Electronics contributed **40% of total sales**.
