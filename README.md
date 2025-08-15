@@ -49,4 +49,22 @@ The dashboard includes:
 - Forecast assumes linear trend and consistent seasonality.
 - Data is only as accurate as the source tables; missing values may affect totals.
 - Top/Bottom N views rely on current slicer selection for dynamic filtering.
+---
+## Section 1: Data Import and Transformation (20 Marks)
+
+Dataset was imported into Power BI and cleaned using **Power Query Editor**.  
+
+- **Imported tables:** Sales, Products, Customers, Dates.  
+- **Transformations:**  
+  - Calculated Profit = SalesAmount - (Quantity * Cost)  
+  - Split Customer Name into FirstName / LastName  
+  - Created Sales Category (High / Medium / Low)  
+  - Aggregated Dates by Year/Month  
+  - Removed duplicates and filtered out pre-2018 records  
+- **Data Quality:** Checked for missing values and outliers; applied corrections.  
+
+### Screenshot
+Insert screenshot of Power Query Editor here:
+
+![Power Query Editor](screenshots/powerquery_editor.png)
 
