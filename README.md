@@ -66,7 +66,7 @@ Dataset was imported into Power BI and cleaned using **Power Query Editor**.
 ### Screenshot
 Insert screenshot of Power Query Editor here:
 
-![Power Query Editor](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(9).png)
+![Power Query Editor](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(5).png)
 
 # Section 2: Data Modeling (15 Marks)
 
@@ -77,8 +77,8 @@ Built a star schema with `Sales_data` as the central fact table and dimensions `
 
 **Screenshots:**
 
-![Model View](screenshots/model_view.png)
-*Figure 1: Relationships in Model view, showing active links*
+![Model View](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(4).png)
+
 
 **Notes:**  
 - Sales ↔ Dates via OrderDate → Date  
@@ -102,18 +102,7 @@ Category > Subcategory > ProductName
 - Profit → Currency  
 - Budget Attainment → Percentage  
 
-**Screenshots:**
 
-![Date Hierarchy](screenshots/date_hierarchy.png)
-*Figure 2: Date hierarchy in Dates table*
-
-![Product Hierarchy](screenshots/product_hierarchy.png)
-*Figure 3: Product hierarchy in Products table*
-
-**Tips:**  
-- Hide surrogate keys for cleaner Fields pane  
-- Use hierarchies for drill-down in visuals  
-- Format measures consistently for readability
 
 
 # Section 3: Visualizations
@@ -124,7 +113,7 @@ Category > Subcategory > ProductName
 **Description:**  
 Shows the top 10 products sorted by SalesAmount in descending order. Data labels and tooltips display Profit for each product.  
 **Screenshot:**  
-![Bar Chart](link_to_bar_chart.png)
+![Bar Chart](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(9).png)
 
 ---
 
@@ -132,7 +121,7 @@ Shows the top 10 products sorted by SalesAmount in descending order. Data labels
 **Description:**  
 Displays monthly SalesAmount trends with a trend line and 6-month forecast. Useful for identifying seasonal patterns and projecting future sales.  
 **Screenshot:**  
-![Line Chart](link_to_line_chart.png)
+![Line Chart](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(5).png)
 
 ---
 
@@ -140,7 +129,7 @@ Displays monthly SalesAmount trends with a trend line and 6-month forecast. Usef
 **Description:**  
 Illustrates the proportion of sales by product category. Limited to avoid clutter. Legend and percentages shown for clarity.  
 **Screenshot:**  
-![Pie Chart](link_to_pie_chart.png)
+![Pie Chart](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(8).png)
 
 ---
 
@@ -148,7 +137,7 @@ Illustrates the proportion of sales by product category. Limited to avoid clutte
 **Description:**  
 Bubble map showing sales quantity by Country/State. Drill-down enabled to City level for detailed insights. Tooltips show SalesAmount.  
 **Screenshot:**  
-![Map](link_to_map.png)
+![Map](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(13).png)
 
 ---
 
@@ -158,15 +147,14 @@ Bubble map showing sales quantity by Country/State. Drill-down enabled to City l
 **Description:**  
 Visualizes Quantity vs Profit, colored by Sales Category. Includes a Play Axis for Year to see trends over time.  
 **Screenshot:**  
-![Scatter Plot](link_to_scatter_plot.png)
+![Scatter Plot](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(10).png)
 
 ---
 
 ### KPI Card – Total SalesAmount
 **Description:**  
 Shows Total SalesAmount with a target (e.g., 10% growth from previous year) and variance for quick insight.  
-**Screenshot:**  
-![KPI Card](link_to_kpi_card.png)
+
 
 ---
 
@@ -174,7 +162,7 @@ Shows Total SalesAmount with a target (e.g., 10% growth from previous year) and 
 **Description:**  
 Displays Profit Margin (Profit / SalesAmount) with a target of 30%. Color-coded for quick assessment of performance.  
 **Screenshot:**  
-![Gauge](link_to_gauge.png)
+![Gauge](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(6).png)
 
 ---
 
@@ -182,7 +170,7 @@ Displays Profit Margin (Profit / SalesAmount) with a target of 30%. Color-coded 
 **Description:**  
 Breaks down SalesAmount by Customer → Product → Region. Enables interactive exploration of key drivers.  
 **Screenshot:**  
-![Decomposition Tree](link_to_decomposition_tree.png)
+![Decomposition Tree](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(12).png)
 
 ---
 
@@ -190,7 +178,7 @@ Breaks down SalesAmount by Customer → Product → Region. Enables interactive 
 **Description:**  
 Shows Total Sales against Budget (assume Budget = 1.2 × Cost). Highlights attainment and performance ranges with optional qualitative bands.  
 **Screenshot:**  
-![Bullet Chart](link_to_bullet_chart.png)
+![Bullet Chart](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(7).png)
 
 ---
 
@@ -210,7 +198,7 @@ Shows Total Sales against Budget (assume Budget = 1.2 × Cost). Highlights attai
 Includes the line chart for SalesAmount over time, KPI for Total Sales, and Map for sales by region. Slicers for Year, Category, and Region are added and synced across pages.
 
 **Screenshot:**
-![Sales Overview](link_to_your_image1.png)
+![Sales Overview](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(15).png)
 *Figure 1: Sales Overview page with line chart, KPI, and map*
 
 ---
@@ -220,7 +208,7 @@ Includes the line chart for SalesAmount over time, KPI for Total Sales, and Map 
 Contains a Bar Chart, Scatter Plot, and Decomposition Tree. Bookmarks are created to toggle between Top vs. Bottom performers for quick insights.
 
 **Screenshot:**
-![Product Analysis](link_to_your_image2.png)
+![Product Analysis](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(17).png)
 *Figure 2: Product Analysis page showing charts and decomposition tree*
 
 ---
@@ -230,7 +218,7 @@ Contains a Bar Chart, Scatter Plot, and Decomposition Tree. Bookmarks are create
 Table visual for Top Customers by Sales with conditional formatting. Multi-row card visual for key metrics.
 
 **Screenshot:**
-![Customer Insights](link_to_your_image3.png)
+![Customer Insights](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(16).png)
 *Figure 3: Customer Insights page with table and multi-row card*
 
 ---
@@ -256,7 +244,7 @@ This section demonstrates the implementation of advanced DAX measures and row-le
 Shows the percentage growth of sales compared to the same period last year. Useful for trend and performance analysis.
 
 **Screenshot / Visual:**  
-![YoY Growth Visual](link_to_yoy_visual.png)
+![YoY Growth Visual](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(20).png)
 
 ---
 
@@ -265,7 +253,7 @@ Shows the percentage growth of sales compared to the same period last year. Usef
 Displays cumulative sales up to the current date, allowing tracking of progress over time.
 
 **Screenshot / Visual:**  
-![Running Total Sales Visual](link_to_running_total_visual.png)
+![Running Total Sales Visual](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(21).png)
 
 ---
 
@@ -276,7 +264,7 @@ Displays cumulative sales up to the current date, allowing tracking of progress 
 - **Europe Manager:** Filters data to countries in Europe.
 
 **Screenshot / Visual:**  
-![RLS Setup](link_to_rls_roles.png)
+![RLS Setup](https://github.com/Melaniemweru/PowerBI_Practical_Exam_Melanie/blob/main/BI%20SCREENSHOTS/2025-08-15%20(22).png)
 
 **Notes:**  
 - Test RLS using "View as Role" in Power BI Desktop or Service.  
