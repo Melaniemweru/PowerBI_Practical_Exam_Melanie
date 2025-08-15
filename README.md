@@ -8,7 +8,7 @@ The dashboard includes:
 - **Sales Overview:** Line chart showing Sales over Time with Year-over-Year growth, KPI cards for total revenue and profit, and a map of sales by region.
 - **Product Analysis:** Bar charts, scatter plots, and decomposition tree for Top and Bottom performing products, with dynamic Top N filters and bookmarks for different views.
 - **Customer Insights:** Table visual showing Top Customers by Sales, with conditional formatting to highlight low/high profit, and multi-row cards for key metrics such as Average Revenue per Customer, Repeat Customers, and Total Revenue.
-
+-
 ---
 
 ## Key Features
@@ -242,4 +242,45 @@ Pinned visuals from report pages to Power BI Service dashboard. Tiles added for 
 **Screenshot:**
 ![Dashboard](link_to_dashboard_image.png)
 *Figure 4: Dashboard showing pinned visuals and tiles*
+
+# Section 5: Advanced Features and DAX (15 Marks)
+
+This section demonstrates the implementation of advanced DAX measures and row-level security (RLS) in Power BI. Measures include Year-over-Year growth and Running Total Sales to analyze trends and cumulative performance. RLS ensures data is visible only to authorized roles (e.g., US Manager, Europe Manager).
+
+---
+
+## 1. DAX Measures
+
+### Year-over-Year (YoY) Growth
+**Measure Description:**  
+Shows the percentage growth of sales compared to the same period last year. Useful for trend and performance analysis.
+
+**Screenshot / Visual:**  
+![YoY Growth Visual](link_to_yoy_visual.png)
+
+---
+
+### Running Total Sales
+**Measure Description:**  
+Displays cumulative sales up to the current date, allowing tracking of progress over time.
+
+**Screenshot / Visual:**  
+![Running Total Sales Visual](link_to_running_total_visual.png)
+
+---
+
+## 2. Row-Level Security (RLS)
+
+### Roles Implemented:
+- **US Manager:** Filters data to `Country = "United States"`.
+- **Europe Manager:** Filters data to countries in Europe.
+
+**Screenshot / Visual:**  
+![RLS Setup](link_to_rls_roles.png)
+
+**Notes:**  
+- Test RLS using "View as Role" in Power BI Desktop or Service.  
+- Ensure DAX measures are efficient and free of errors.  
+- Use these measures in visuals for interactive insights across the report.
+
 
