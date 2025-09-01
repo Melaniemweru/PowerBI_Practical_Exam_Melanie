@@ -1,5 +1,5 @@
-# PowerBI_Practical_Exam_Melanie
-# Power BI Exam Dashboard Overview
+# Sales_Dashboard
+
 
 ## Project Overview
 This Power BI project demonstrates a comprehensive approach to analyzing sales, product, and customer data. The report is designed to provide interactive, drillable insights for business decision-making, with a focus on clarity, color consistency, and cross-filtering between visuals.
